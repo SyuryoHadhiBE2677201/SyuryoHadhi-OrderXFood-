@@ -7,3 +7,7 @@ XFOOD ini di gunakan untuk memandu cara memesan makanan secara online
 -README.md
 -Pseudocode.txt
 -Alogithem.txt
+
+Dibuat oleh 
+- `Syuryo Hadhi - BE2677201`
+
