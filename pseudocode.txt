@@ -1,0 +1,50 @@
+READ and WRITE "XFood"
+INPUT "XFood"
+STORE "XFood"
+
+IF "INPUT Nama makanan/restoran" equal than menu makanan
+        READ AND WRITE  "Menu makanan" with String" 
+        INPUT "Menu Makanan"
+        DISPLAY "Menu Makanan"
+        READ AND WRITE  "Pilih makanan" with String"
+        INPUT Pilih makanan"
+        DISPLAY "Pilih makanan"
+IF "INPUT Nama makanan/restoran" equal than menu makanan
+        READ AND WRITE  "Pilih makanan" with String"
+        INPUT "Pilih makanan"
+        DISPLAY "Pilih makanan"
+
+READ AND WRITE "Menu Tambahan"
+INPUT "Menu Tambahan"
+STORE "Menu Tambahan"
+
+IF "Tambah Minum" equal than Yes
+    READ AND WRITE "Tambah Minum" with String
+    INPUT "Tambah Minum"
+    READ AND WRITE "Pilih Minuman"
+    INPUT "Pilih Minuman"
+    DISPLAY "Pilih Minuman"
+IF "Tambah Minum" equal than No
+    READ AND WRITE "Pilih Minuman" with String
+    INPUT "Pilih Minuman"
+    DISPLAY "Pilih Minuman
+
+READ AND WRITE "Pilih Buat pesenan"
+INPUT "Pilih Buat pesenan"
+STORE "Pilih Buat pesenan"
+
+IF "Pembayaran" with String than "Tunai"
+    READ AND WRITE "Tunai"
+    INPUT "Tunai"
+    DISPLAY "Tunai"
+    READ AND WRITE "Selesai"
+    INPUT "Selesai"
+    STORE "Selesai"
+IF "Pembayaran" with String than "Non tunai"
+    READ AND WRITE "Non tunai"
+    INPUT "Non tunai"
+    DISPLAY "Non tunai"
+    READ AND WRITE "Selesai"
+    INPUT "Selesai"
+    STORE "Selesai"
+END IF
